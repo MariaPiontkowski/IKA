@@ -1,0 +1,19 @@
+.colorlib-nav {
+    position: absolute;
+}
+
+#colorlib-hero .flexslider {
+    position: absolute;
+    top: 0;
+}
+
+#colorlib-hero .flexslider .slides li:after, #colorlib-hero .flexslider .slides li:before {
+    background: -moz-linear-gradient(left, white 0%, white 10%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, white), color-stop(10%, white), color-stop(50%, rgba(255, 255, 255, 0)), color-stop(100%, rgba(255, 255, 255, 0)));
+    background: -webkit-linear-gradient(left, white 0%, white 10%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 100%);
+    background: -o-linear-gradient(left, white 0%, white 10%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 100%);
+    background: -ms-linear-gradient(left, white 0%, white 10%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 100%);
+    background: -webkit-gradient(linear, left top, right top, from(white), color-stop(10%, white), color-stop(50%, rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, 0)));
+    background: linear-gradient(to right, white 0%, white 10%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 110%);
+
+}
